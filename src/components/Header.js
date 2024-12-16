@@ -50,7 +50,7 @@ const Header = () => {
         </div>
         <nav className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
           <Link to="/" onClick={() => setIsMenuOpen(false)}>Главная</Link>
-          <Link to="/about" onClick={() => setIsMenuOpen(false)}>О нас</Link>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)}>Онас</Link>
           <Link to="/catalog" onClick={() => setIsMenuOpen(false)}>Каталог</Link>
         </nav>
         <button className="menu-toggle" onClick={toggleMenu}>
