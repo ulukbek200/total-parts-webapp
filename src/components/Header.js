@@ -39,7 +39,7 @@ const Header = () => {
         <div className="logo-section">
           <Link to="/" className="logo-link">
             <img src={logo} alt="Логотип" className="logo-image" />
-            <h5 className="site-name"><strong>Total</strong>Parts.kg</h5>
+            <h5 className="site-name"><strong>Total</strong>Parts.kgooooooo</h5>
           </Link>
         </div>
         <div className="search-bar">
@@ -50,7 +50,7 @@ const Header = () => {
         </div>
         <nav className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
           <Link to="/" onClick={() => setIsMenuOpen(false)}>Главная</Link>
-          <Link to="/about" onClick={() => setIsMenuOpen(false)}>Онас</Link>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)}>О нас</Link>
           <Link to="/catalog" onClick={() => setIsMenuOpen(false)}>Каталог</Link>
         </nav>
         <button className="menu-toggle" onClick={toggleMenu}>
