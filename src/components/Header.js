@@ -39,7 +39,7 @@ const Header = () => {
         <div className="logo-section">
           <Link to="/" className="logo-link">
             <img src={logo} alt="Логотип" className="logo-image" />
-            <h5 className="site-name"><strong>Total LOOOOOOOOOH</strong>Parts.kgooooop</h5>
+            <h5 className="site-name"><strong>Total</strong>Parts.kg</h5>
           </Link>
         </div>
         <div className="search-bar">
@@ -57,7 +57,7 @@ const Header = () => {
           <FontAwesomeIcon icon={faBars} />
         </button>
       </div>
-      <div className="top-bar">
+      {/* <div className="top-bar">
         <div className="location">
           <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />
           <span>Кыргызстан - Бишкек</span>
@@ -84,7 +84,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faInstagram} className="icon" />
           </a>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };
