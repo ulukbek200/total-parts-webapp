@@ -39,7 +39,7 @@ const Header = () => {
         <div className="logo-section">
           <Link to="/" className="logo-link">
             <img src={logo} alt="Логотип" className="logo-image" />
-            <h5 className="site-name"><strong>Total</strong>Parts.kg</h5>
+            <h5 className="site-name"><strong>Total LOOOOOOOOOH</strong>Parts.kg</h5>
           </Link>
         </div>
         <div className="search-bar">
